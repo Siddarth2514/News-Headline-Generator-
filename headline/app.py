@@ -46,6 +46,15 @@ body {
     z-index: 999;
     border-left: 5px solid #4a90e2;
 }
+@media only screen and (max-width: 768px) {
+    #floating-tips {
+        position: relative;
+        top: auto;
+        left: auto;
+        width: 90%;
+        margin: 20px auto;
+    }
+}
 #floating-tips h4 {
     margin-top: 0;
     font-size: 16px;
